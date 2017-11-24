@@ -1,0 +1,206 @@
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        9.000000000000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433        0.000000000000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Wallet
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+
+Deploy Sale Contract
+saleAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688 status=0x1 Success gas=6000000 gasUsed=755870 costETH=0.00075587 costUSD=0.30820145728 @ ETH/USD=407.744 gasPrice=1 gwei block=6 txIx=0 txId=0x87d8fc9476aa49199dbc597697aa6270ba3be624e409f26dd69a91717ca416ab @ 1511525184 Fri, 24 Nov 2017 12:06:24 UTC
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       15.000755870000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.000755870000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Wallet
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Sale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Deploy Sale Contract
+saleContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+sale.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+sale.newOwner=0x0000000000000000000000000000000000000000
+sale.notice=
+sale.start=0 Thu, 01 Jan 1970 00:00:00 UTC
+sale.end=0 Thu, 01 Jan 1970 00:00:00 UTC
+sale.cap=0 0 ETH
+sale.live=false
+
+Contribute Before Sale init()-ed
+contribute1Tx status=0x0 Failure gas=500000 gasUsed=21288 costETH=0.000021288 costUSD=0.008680054272 @ ETH/USD=407.744 gasPrice=1 gwei block=8 txIx=0 txId=0xe399ec9cb9eae206b1c5758915ddc13e623af338219e58f82a38cdcbb924f59c @ 1511525186 Fri, 24 Nov 2017 12:06:26 UTC
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       21.000777158000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.000755870000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Wallet
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000021288000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Sale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Contribute Before Sale init()-ed - Expecting failure
+saleContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+sale.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+sale.newOwner=0x0000000000000000000000000000000000000000
+sale.notice=
+sale.start=0 Thu, 01 Jan 1970 00:00:00 UTC
+sale.end=0 Thu, 01 Jan 1970 00:00:00 UTC
+sale.cap=0 0 ETH
+sale.live=false
+
+Init Sale
+initSale1Tx status=0x1 Success gas=500000 gasUsed=83065 costETH=0.000083065 costUSD=0.03386925536 @ ETH/USD=407.744 gasPrice=1 gwei block=11 txIx=0 txId=0xdec1665ca9c52f83d79423db1f2fa99fb8271eb7332d91e7dc667cd1876c5d11 @ 1511525189 Fri, 24 Nov 2017 12:06:29 UTC
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       30.000860223000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.000838935000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Wallet
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000021288000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Sale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Init Sale
+saleContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+sale.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+sale.newOwner=0x0000000000000000000000000000000000000000
+sale.notice=
+sale.start=1511525234 Fri, 24 Nov 2017 12:07:14 UTC
+sale.end=1511525264 Fri, 24 Nov 2017 12:07:44 UTC
+sale.cap=100000000000000000000 100 ETH
+sale.live=false
+
+Waiting until 'Start' at 1511525234+0s =Fri, 24 Nov 2017 23:07:15 AEDT now=Fri, 24 Nov 2017 23:06:30 AEDT
+Waited until 'Start' at at 1511525234+0s =Fri, 24 Nov 2017 23:07:15 AEDT now=Fri, 24 Nov 2017 23:07:15 AEDT
+
+Contribute After Sale Start
+contribute2_1Tx status=0x1 Success gas=500000 gasUsed=43622 costETH=0.000043622 costUSD=0.017786608768 @ ETH/USD=407.744 gasPrice=1 gwei block=32 txIx=0 txId=0xdea1985dd4cf55ece56a2ece15feeb680f49c266c149051cfcfad07b758f5cbc @ 1511525236 Fri, 24 Nov 2017 12:07:16 UTC
+contribute2_2Tx status=0x1 Success gas=500000 gasUsed=22771 costETH=0.000022771 costUSD=0.009284738624 @ ETH/USD=407.744 gasPrice=1 gwei block=32 txIx=1 txId=0xad5dd5eaa0e26ed1c3af0cf70029002c32b41b9a73c9f51658d58105458f4dd0 @ 1511525236 Fri, 24 Nov 2017 12:07:16 UTC
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       93.000926616000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.000838935000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Wallet
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -10.000064910000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.000022771000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688       20.000000000000000000           0.000000000000000000 Sale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Contribute After Sale Start - ac3 10 ETH
+PASS Contribute After Sale Start - ac4 10 ETH
+saleContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+sale.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+sale.newOwner=0x0000000000000000000000000000000000000000
+sale.notice=
+sale.start=1511525234 Fri, 24 Nov 2017 12:07:14 UTC
+sale.end=1511525264 Fri, 24 Nov 2017 12:07:44 UTC
+sale.cap=100000000000000000000 100 ETH
+sale.live=true
+StartSale 0 #32 {}
+EtherIn 0 #32 {"amount":"10000000000000000000","from":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0"}
+EtherIn 1 #32 {"amount":"10000000000000000000","from":"0xa44a08d3f6933c69212114bb66e2df1813651844"}
+
+Waiting until 'End' at 1511525264+0s =Fri, 24 Nov 2017 23:07:45 AEDT now=Fri, 24 Nov 2017 23:07:16 AEDT
+Waited until 'End' at at 1511525264+0s =Fri, 24 Nov 2017 23:07:45 AEDT now=Fri, 24 Nov 2017 23:07:45 AEDT
+
+Contribute After Sale Ended
+contribute3_1Tx status=0x1 Success gas=500000 gasUsed=14256 costETH=0.000014256 costUSD=0.005812798464 @ ETH/USD=407.744 gasPrice=1 gwei block=44 txIx=0 txId=0x799d8608107bed57edaa35d84999a78dc1eb3e655a3db934a92bcee61eba202b @ 1511525265 Fri, 24 Nov 2017 12:07:45 UTC
+contribute3_2Tx status=0x0 Failure gas=500000 gasUsed=21288 costETH=0.000021288 costUSD=0.008680054272 @ ETH/USD=407.744 gasPrice=1 gwei block=46 txIx=0 txId=0xcfb38988c5d514035205dce6a01fd855b0480d714302e40b723fd6d25338c0c5 @ 1511525267 Fri, 24 Nov 2017 12:07:47 UTC
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      135.000962160000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.000838935000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Wallet
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0   -10010.000079166000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.000044059000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688    10020.000000000000000000           0.000000000000000000 Sale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Contribute After Sale Ended - ac3 10,000 ETH - NOTE that this contribution should not have been accepted as it is over the cap and after the end
+PASS Contribute After Sale Ended - ac4 10,000 ETH - Expecting failure
+saleContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+sale.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+sale.newOwner=0x0000000000000000000000000000000000000000
+sale.notice=
+sale.start=1511525234 Fri, 24 Nov 2017 12:07:14 UTC
+sale.end=1511525264 Fri, 24 Nov 2017 12:07:44 UTC
+sale.cap=100000000000000000000 100 ETH
+sale.live=false
+EndSale 0 #44 {}
+EtherIn 0 #44 {"amount":"1e+22","from":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0"}
+
+Withdraw
+withdraw1Tx status=0x1 Success gas=500000 gasUsed=28481 costETH=0.000028481 costUSD=0.011612956864 @ ETH/USD=407.744 gasPrice=1 gwei block=49 txIx=0 txId=0x245770c7f8cb6ac9306592c91e11c17dc6b7e29d1f6c2dea7abf9a4c8ab9f6e2 @ 1511525272 Fri, 24 Nov 2017 12:07:52 UTC
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      144.000990641000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433    10019.999132584000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Wallet
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0   -10010.000079166000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.000044059000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Sale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Withdraw
+saleContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+sale.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+sale.newOwner=0x0000000000000000000000000000000000000000
+sale.notice=
+sale.start=1511525234 Fri, 24 Nov 2017 12:07:14 UTC
+sale.end=1511525264 Fri, 24 Nov 2017 12:07:44 UTC
+sale.cap=100000000000000000000 100 ETH
+sale.live=false
+
